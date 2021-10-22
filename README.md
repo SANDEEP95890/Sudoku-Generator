@@ -1,0 +1,2 @@
+# Sudoku-Generator
+Generates Sudoku puzzles that have a unique solution. Able to generate either easy (requires nothing harder than hidden singles) puzzles, or medium/difficult puzzles (sometimes requiring extreme strategies/techniques like cell-forcing chains). The algorithm that generates difficult puzzles gives you not only unique boards, but boards where you cannot remove any more numbers without destroying the uniqueness of the solution.
