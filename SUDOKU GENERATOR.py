@@ -63,7 +63,7 @@ def populateBoard(s, row, col):
     set it to blank and return false.
     """
     if row == 8 and col == 8:
-        used = pySudoku.test_cell(s, row, col)
+        used = sudoku_solver.test_cell(s, row, col)
         s[row][col] = used.index(0)
         return True
 
